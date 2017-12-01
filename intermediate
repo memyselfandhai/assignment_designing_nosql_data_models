@@ -63,13 +63,31 @@ quantity: 84,
 
 transactions:
 
-{transactionID: 23213, 
+{transactionID: 23213,
 items: [ {productID: quantityordered,
 	    totalCost: total}]
 
+
+
+
 ## Social Media
 
+## user
+
+* friends: [ {moe:friendID}, curly, larry]
+* profile: {
+  photos: [ ... ]
+}
+* user's activity: [
+  {uploading a photo : timestamp},
+  {changing their profile: timestamp},
+  {friending another user: timestamp},
+  {commenting: timestamp},
+]
+* activeFriends: [ moe, curly, larry ]
+(commented or something with activeFriend within last month)
 
 
 
-  
+Moe's Feed
+listen.on active friend's activity
