@@ -1,0 +1,35 @@
+## Users
+
+* username: String
+    * Must contain only word characters
+* password: String
+    * Must be at least 8 characters, one number, one uppercase letter, one lowercase
+* email: String
+    * Must contain an @ symbol
+
+
+
+## Profile
+
+* birthday: date
+* gender: single char
+* phone number: digits only, 10 min/exact?
+* location {
+    * city
+    * state
+    * country
+  }
+* bio
+  * text
+* profile picture/avatar
+  * max 1mb
+
+
+## Preference
+  * stay loggged in
+  * 2 key authentication?
+  * enable/disable {
+    * profile details
+    * notifications
+    * allow site to track location
+  }

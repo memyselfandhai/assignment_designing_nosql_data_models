@@ -1,0 +1,42 @@
+## Users
+* username: String
+    * Must contain only word characters
+* password: String
+    * Must be at least 8 characters, one number, one uppercase letter, one lowercase
+* email: String
+    * Must contain an @ symbol
+
+
+-- availability document for tables for each restaurant --
+(all tables start in available and shift to reserved once booked)
+* phone number
+* times
+* available tables
+  * [ table4, ....]
+* reservered tables
+  * [ {table1, ....]
+
+TABLE MODEL
+{id:table 4,
+ seats: 4 seats,
+ availability: [1-2, 2-3, ...]
+ }
+
+
+
+
+
+ ## Students
+ * username: String
+     * Must contain only word characters
+ * password: String
+     * Must be at least 8 characters, one number, one uppercase letter, one lowercase
+ * email: String
+     * Must contain an @ symbol
+
+
+
+
+
+*semesters = [ fall_2017 ]
+  
