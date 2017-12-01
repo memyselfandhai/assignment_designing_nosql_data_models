@@ -38,5 +38,38 @@ TABLE MODEL
 
 
 
-*semesters = [ fall_2017 ]
+*semesters = [ fall_2017, spring_2017 ]
+
+fall_2017 {
+art: grades = [{exam:grade}, {exam: grade}]
+gym: grades = [{exam: grade},….]
+}
+
+
+
+## eCommerce
+
+*department {
+productid: {
+name: “”,
+pricehistory: [{currentprice: date}, {previousprice: date}]
+quantity: 84,
+
+}
+
+}
+
+*transactionHistory  //Index of transactions
+
+transactions:
+
+{transactionID: 23213, 
+items: [ {productID: quantityordered,
+	    totalCost: total}]
+
+## Social Media
+
+
+
+
   
